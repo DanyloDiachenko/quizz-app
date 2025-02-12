@@ -6,7 +6,8 @@ import { OwnQuests } from "@/components/common/tables/OwnQuests";
 import { ProfileForm } from "@/components/common/ProfileForm";
 import { LeftColumnProfile } from "@/components/common/LeftColumnProfile";
 import { motion } from "framer-motion";
-import { slideFromBottomAnimation } from "@/helpers/animation";
+import { slideFromBottomAnimation } from "@/constants";
+
 export const MyProfilePageComponent = ({
     profile,
     completedQuests,

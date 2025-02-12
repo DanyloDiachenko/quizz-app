@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { AiOutlineUser, AiOutlineClose } from "react-icons/ai";
 import { IoTrophyOutline } from "react-icons/io5";
-import { getAchievements } from "@/data/getAchievements";
+import { getAchievements } from "@/helpers/getAchievements";
 import { RenderRating } from "@/helpers/RenderRating";
 import { Button } from "@/components/ui/Button";
 import { deleteUserAvatar, updateUserProfile } from "@/apis/user";
@@ -19,7 +19,7 @@ import Image from "next/image";
 import { LeftColumnProfileProps } from "./LeftColumnProfile.props";
 import { setCookie } from "@/helpers/setCookie";
 import { motion } from "framer-motion";
-import { popAnimation } from "@/helpers/animation";
+import { popAnimation } from "@/constants";
 
 export const LeftColumnProfile = ({
     profile,

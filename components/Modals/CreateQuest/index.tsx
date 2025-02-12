@@ -25,13 +25,11 @@ import { toggleModal } from "@/store/slices/modals";
 import { FaRegTrashAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 import {
-    popAnimation,
-    popAnimationWithTransform,
-} from "../../../helpers/animation";
-import {
     MAX_DESCRIPTION_LENGTH,
     MAX_QUEST_DURATION,
     MAX_TITLE_LENGTH,
+    popAnimation,
+    popAnimationWithTransform,
 } from "@/constants";
 
 export const CreateQuest = () => {

@@ -113,7 +113,7 @@ export const HomePageComponent = ({ serverQuests }: HomePageComponentProps) => {
                     результатів знайдено
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 gap-7 mt-6">
-                    {quests.length && (
+                    {quests.length ? (
                         <AnimatePresence>
                             {quests.map((quest, index) => (
                                 <motion.div
@@ -131,6 +131,8 @@ export const HomePageComponent = ({ serverQuests }: HomePageComponentProps) => {
                                 </motion.div>
                             ))}
                         </AnimatePresence>
+                    ) : (
+                        ""
                     )}
                 </div>
             </>

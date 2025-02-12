@@ -12,7 +12,7 @@ import { toast } from "react-toastify";
 import { IoChatbubbleEllipsesSharp } from "react-icons/io5";
 import { PlayingProps } from "./Playing.props";
 import { motion } from "framer-motion";
-import { slideFromSidesAnimation } from "@/helpers/animation";
+import { slideFromSidesAnimation } from "@/constants";
 import Image from "next/image";
 import { FaImage } from "react-icons/fa";
 

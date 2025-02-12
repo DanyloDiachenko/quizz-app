@@ -4,7 +4,7 @@ import { RenderRating } from "@/helpers/RenderRating";
 import { AiOutlineUser } from "react-icons/ai";
 import { ReviewsProps } from "./Reviews.props";
 import { motion } from "framer-motion";
-import { slideFromBottomAnimation } from "@/helpers/animation";
+import { slideFromBottomAnimation } from "@/constants";
 import { formatDate } from "@/helpers/formatDate";
 
 export const Reviews = ({ quest }: ReviewsProps) => {

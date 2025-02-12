@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { ReactNode } from "react";
 import { FaGoogle } from "react-icons/fa6";
 import { motion } from "framer-motion";
-import { slideFromBottomAnimation } from "@/helpers/animation";
+import { slideFromBottomAnimation } from "@/constants";
 
 const AuthLayout = ({ children }: { children: ReactNode }) => {
     const pathname = usePathname();

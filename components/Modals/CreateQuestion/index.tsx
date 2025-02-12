@@ -17,12 +17,12 @@ import {
     setQuestionActiveId,
 } from "@/store/slices/quests";
 import { motion } from "framer-motion";
-import {
-    popAnimationWithTransform,
-    popAnimation,
-} from "../../../helpers/animation";
 import { FaImage, FaRegTrashAlt, FaTrash } from "react-icons/fa";
-import { MAX_TITLE_LENGTH } from "@/constants";
+import {
+    MAX_TITLE_LENGTH,
+    popAnimation,
+    popAnimationWithTransform,
+} from "@/constants";
 import Image from "next/image";
 
 export const CreateQuestion = () => {

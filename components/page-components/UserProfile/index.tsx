@@ -7,7 +7,7 @@ import { cn } from "@/helpers/cn";
 import { ProfileForm } from "@/components/common/ProfileForm";
 import { LeftColumnProfile } from "@/components/common/LeftColumnProfile";
 import { motion } from "framer-motion";
-import { slideFromBottomAnimation } from "@/helpers/animation";
+import { slideFromBottomAnimation } from "@/constants";
 import { printUserNickname } from "@/helpers/printUserNickname";
 
 export const UserProfilePageComponent = ({

@@ -7,7 +7,7 @@ import { LeaderboardProps } from "./Leaderboard.props";
 import { getTimeInMinutes } from "@/helpers/getTimeInMinutes";
 import { printUserNickname } from "@/helpers/printUserNickname";
 import { motion } from "framer-motion";
-import { slideFromBottomAnimation } from "@/helpers/animation";
+import { slideFromBottomAnimation } from "@/constants";
 
 export const Leaderboard = ({
     leaderboard,

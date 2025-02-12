@@ -15,7 +15,7 @@ import { motion } from "framer-motion";
 import { FaImage, FaRegTrashAlt } from "react-icons/fa";
 import { MAX_TITLE_LENGTH } from "@/constants";
 import Image from "next/image";
-import { popAnimationWithTransform } from "../../../helpers/animation";
+import { popAnimationWithTransform } from "@/constants";
 
 export const QuestionEdit = () => {
     const {

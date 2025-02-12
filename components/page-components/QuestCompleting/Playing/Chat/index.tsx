@@ -12,7 +12,7 @@ import { useChat } from "@/hooks/useChat";
 import { toast } from "react-toastify";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { popAnimation } from "@/helpers/animation";
+import { popAnimation } from "@/constants";
 
 export const Chat = ({ isOpened, setIsOpened, user }: ChatProps) => {
     const messagesEndRef = useRef<HTMLDivElement>(null);

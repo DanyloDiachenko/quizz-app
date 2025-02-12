@@ -25,7 +25,7 @@ import { toggleModal } from "@/store/slices/modals";
 import { FaRegTrashAlt } from "react-icons/fa";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import { popAnimationWithTransform } from "../../../helpers/animation";
+import { popAnimationWithTransform } from "@/constants";
 import {
     MAX_DESCRIPTION_LENGTH,
     MAX_QUEST_DURATION,

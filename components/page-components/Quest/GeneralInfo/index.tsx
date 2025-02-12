@@ -11,7 +11,7 @@ import { FaImage } from "react-icons/fa";
 import { printUserNickname } from "@/helpers/printUserNickname";
 import { formatDate } from "@/helpers/formatDate";
 import { motion } from "framer-motion";
-import { slideFromBottomAnimation } from "@/helpers/animation";
+import { slideFromBottomAnimation } from "@/constants";
 
 export const GeneralInfo = ({ quest }: GeneraInfoProps) => {
     const redirect = useRedirect();

@@ -68,10 +68,7 @@ export const CreateQuest = () => {
                     type: question.type,
                     options: question.choiceOptions!.map((o) => {
                         return {
-                            title: o.title
-                                .trim()
-                                .replace(" ", "_")
-                                .toLowerCase(),
+                            title: o.title,
                             isCorrect: o.isCorrect,
                         };
                     }),

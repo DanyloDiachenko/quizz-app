@@ -15,6 +15,7 @@ import { setCookie } from "@/helpers/setCookie";
 import { toast } from "react-toastify";
 import { AsideProps, Links, TitleType } from "./Aside.props";
 import { GiThink } from "react-icons/gi";
+import { printUserNickname } from "@/helpers/printUserNickname";
 
 export const Aside = ({ profile }: AsideProps) => {
     const links: Links = [
@@ -127,11 +128,10 @@ export const Aside = ({ profile }: AsideProps) => {
                             </div>
                             <div>
                                 <Link href="/profile" className="text-white">
-                                    {!profile.firstName && !profile.lastName
-                                        ? "Користувач"
-                                        : `${profile.firstName || ""} ${
-                                              profile.lastName || ""
-                                          }`}
+                                    {printUserNickname(
+                                        profile.firstName,
+                                        profile.lastName,
+                                    )}
                                 </Link>
                                 <button
                                     onClick={onLogoutClick}

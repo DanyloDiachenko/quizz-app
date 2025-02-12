@@ -9,7 +9,7 @@ import { ToastProvider } from "@/components/providers/Toast";
 import { getCookie } from "@/helpers/getCookie";
 import { getPathname } from "@/helpers/getPathname";
 import { Modals } from "@/components/Modals";
-import { getMyProfile } from "@/api/user";
+import { getMyProfile } from "@/apis/user";
 import { setCookie } from "@/helpers/setCookie";
 import { LayoutBackground } from "@/components/common/LayoutBackground";
 

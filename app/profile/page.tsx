@@ -1,5 +1,5 @@
-import { getCompletedQuestsByOwnerId, getQuestsByOwnerId } from "@/api/quests";
-import { getMyProfile } from "@/api/user";
+import { getCompletedQuestsByOwnerId, getQuestsByOwnerId } from "@/apis/quests";
+import { getMyProfile } from "@/apis/user";
 import { MyProfilePageComponent } from "@/components/page-components/MyProfile";
 import { getCookie } from "@/helpers/getCookie";
 import { redirect } from "next/navigation";

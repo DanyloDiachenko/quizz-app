@@ -1,7 +1,7 @@
 "use client";
 
-import { DEFAULT_FIELD_ERROR } from "@/api/responses/common/failure.interface";
-import { deleteUserProfile } from "@/api/user";
+import { DEFAULT_FIELD_ERROR } from "@/apis/responses/common/failure.interface";
+import { deleteUserProfile } from "@/apis/user";
 import { Button } from "@/components/ui/Button";
 import { printToastErrorMessages } from "@/helpers/displayToasts";
 import { setCookie } from "@/helpers/setCookie";
@@ -29,7 +29,9 @@ export const DeleteProfile = ({
                     }, 500);
                 } else {
                     toast.success(
-                        `Профіль користувача ${profile?.firstName || ""} ${profile?.lastName || ""} успішно видалено!`,
+                        `Профіль користувача ${profile?.firstName || ""} ${
+                            profile?.lastName || ""
+                        } успішно видалено!`,
                     );
                     router.back();
                 }

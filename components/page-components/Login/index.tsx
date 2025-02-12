@@ -1,7 +1,7 @@
 "use client";
 
-import { login } from "@/api/auth";
-import { DEFAULT_FIELD_ERROR } from "@/api/responses/common/failure.interface";
+import { login } from "@/apis/auth";
+import { DEFAULT_FIELD_ERROR } from "@/apis/responses/common/failure.interface";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { printToastErrorMessages } from "@/helpers/displayToasts";
@@ -10,7 +10,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { FormEvent, useState } from "react";
 import { toast } from "react-toastify";
-import { LoginRequestBody } from "@/api/requestBodies/auth.interface";
+import { LoginRequestBody } from "@/apis/requestBodies/auth.interface";
 import { ImSpinner2 } from "react-icons/im";
 import { validateEmail } from "@/helpers/validateEmail";
 import { cn } from "@/helpers/cn";

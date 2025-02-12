@@ -6,12 +6,12 @@ import { IoTrophyOutline } from "react-icons/io5";
 import { getAchievements } from "@/data/getAchievements";
 import { RenderRating } from "@/helpers/RenderRating";
 import { Button } from "@/components/ui/Button";
-import { deleteUserAvatar, updateUserProfile } from "@/api/user";
+import { deleteUserAvatar, updateUserProfile } from "@/apis/user";
 import { toast } from "react-toastify";
 import {
     DEFAULT_FIELD_ERROR,
     RequestError,
-} from "@/api/responses/common/failure.interface";
+} from "@/apis/responses/common/failure.interface";
 import { printToastErrorMessages } from "@/helpers/displayToasts";
 import { useRouter } from "next/navigation";
 import { DeleteProfile } from "./DeleteProfile";

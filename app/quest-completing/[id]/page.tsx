@@ -1,6 +1,6 @@
 import { PageProps } from "@/.next/types/app/page";
-import { getQuestById, getQuestByIdWithoutQuestions } from "@/api/quests";
-import { getMyProfile } from "@/api/user";
+import { getQuestById, getQuestByIdWithoutQuestions } from "@/apis/quests";
+import { getMyProfile } from "@/apis/user";
 import { QuestCompletingPageComponent } from "@/components/page-components/QuestCompleting";
 import { getCookie } from "@/helpers/getCookie";
 import { Quest, QuestWithoutQuestions } from "@/types/quest.interface";

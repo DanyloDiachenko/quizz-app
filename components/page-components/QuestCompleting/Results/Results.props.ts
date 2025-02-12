@@ -1,4 +1,4 @@
-import { SubmitQuestResponseSuccess } from "@/api/responses/quest.type";
+import { SubmitQuestResponseSuccess } from "@/apis/responses/quest.type";
 import { Quest, QuestWithoutQuestions } from "@/types/quest.interface";
 
 export interface ResultsProps {

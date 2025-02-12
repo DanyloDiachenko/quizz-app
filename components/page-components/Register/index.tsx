@@ -1,11 +1,11 @@
 "use client";
 
-import { register } from "@/api/auth";
-import { RegisterRequestBody } from "@/api/requestBodies/auth.interface";
+import { register } from "@/apis/auth";
+import { RegisterRequestBody } from "@/apis/requestBodies/auth.interface";
 import {
     DEFAULT_FIELD_ERROR,
     RequestError,
-} from "@/api/responses/common/failure.interface";
+} from "@/apis/responses/common/failure.interface";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { cn } from "@/helpers/cn";

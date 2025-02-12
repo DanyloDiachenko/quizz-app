@@ -7,7 +7,7 @@ import { IoStar } from "react-icons/io5";
 import { IoIosSend } from "react-icons/io";
 import { MakeReviewProps } from "./MakeReview.props";
 import { toast } from "react-toastify";
-import { createFeedback } from "@/api/feedbacks";
+import { createFeedback } from "@/apis/feedbacks";
 import { printToastErrorMessages } from "@/helpers/displayToasts";
 
 export const MakeReview = ({ quest }: MakeReviewProps) => {

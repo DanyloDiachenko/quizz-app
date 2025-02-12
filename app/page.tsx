@@ -1,4 +1,4 @@
-import { getQuests } from "@/api/quests";
+import { getQuests } from "@/apis/quests";
 import { HomePageComponent } from "@/components/page-components/Home";
 import { Quest } from "@/types/quest.interface";
 

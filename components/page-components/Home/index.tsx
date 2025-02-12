@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import { IoCreateOutline } from "react-icons/io5";
 import { HomePageComponentProps } from "./Home.props";
 import { Quest } from "./Quest";
-import { getQuests } from "@/api/quests";
+import { getQuests } from "@/apis/quests";
 import { SortType } from "@/types/quest.interface";
 import { AnimatePresence, motion, Variants } from "framer-motion";
 import { ImSpinner2 } from "react-icons/im";

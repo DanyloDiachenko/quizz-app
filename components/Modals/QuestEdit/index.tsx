@@ -18,8 +18,8 @@ import {
     editQuestions,
     uploadQuestionMedia,
     uploadQuestMedia,
-} from "@/api/quests";
-import { EditQuestBody } from "@/api/requestBodies/quest.interface";
+} from "@/apis/quests";
+import { EditQuestBody } from "@/apis/requestBodies/quest.interface";
 import { toast } from "react-toastify";
 import { toggleModal } from "@/store/slices/modals";
 import { FaRegTrashAlt } from "react-icons/fa";

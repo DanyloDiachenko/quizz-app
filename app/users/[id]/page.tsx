@@ -1,12 +1,12 @@
 import { UserProfilePageComponent } from "@/components/page-components/UserProfile";
-import { getMyProfile } from "@/api/user";
-import { getUserProfile } from "@/api/user";
+import { getMyProfile } from "@/apis/user";
+import { getUserProfile } from "@/apis/user";
 import { getCookie } from "@/helpers/getCookie";
 import { printToastErrorMessages } from "@/helpers/displayToasts";
 import { notFound, redirect } from "next/navigation";
-import { getCompletedQuestsByOwnerId, getQuestsByOwnerId } from "@/api/quests";
+import { getCompletedQuestsByOwnerId, getQuestsByOwnerId } from "@/apis/quests";
 import { toast } from "react-toastify";
-import { DEFAULT_FIELD_ERROR } from "@/api/responses/common/failure.interface";
+import { DEFAULT_FIELD_ERROR } from "@/apis/responses/common/failure.interface";
 
 const UserProfile = async ({ params }: { params: Promise<{ id: string }> }) => {
     const { id } = await params;

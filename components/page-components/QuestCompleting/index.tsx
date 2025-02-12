@@ -6,9 +6,9 @@ import { PlayingGame } from "./Playing";
 import { Results } from "./Results";
 import { QuestCompletingProps } from "./QuestCompleting.props";
 import { QuestionWhileTesting } from "@/types/question.interface";
-import { getQuestionsByQuestId, submitQuest } from "@/api/quests";
+import { getQuestionsByQuestId, submitQuest } from "@/apis/quests";
 import { toast } from "react-toastify";
-import { SubmitQuestResponseSuccess } from "@/api/responses/quest.type";
+import { SubmitQuestResponseSuccess } from "@/apis/responses/quest.type";
 
 type Stage = "waiting" | "game" | "results";
 

@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/Button";
 import { printUserNickname } from "@/helpers/printUserNickname";
 import { setQuest, setQuestions } from "@/store/slices/quests";
 import { toggleModal } from "@/store/slices/modals";
-import { deleteQuest, getQuestById } from "@/api/quests";
+import { deleteQuest, getQuestById } from "@/apis/quests";
 import { useAppDispatch } from "@/store/hooks/useAppDispatch";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";

@@ -1,6 +1,6 @@
 import { PageProps } from "@/.next/types/app/page";
-import { getLeaderboardByQuestId } from "@/api/leaderboard";
-import { getQuestById } from "@/api/quests";
+import { getLeaderboardByQuestId } from "@/apis/leaderboard";
+import { getQuestById } from "@/apis/quests";
 import { GeneralInfo } from "@/components/page-components/Quest/GeneralInfo";
 import { Leaderboard } from "@/components/page-components/Quest/Leaderboard";
 import { Reviews } from "@/components/page-components/Quest/Reviews";

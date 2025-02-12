@@ -30,6 +30,11 @@
 
 -   Продуманий зручний UI, UX дизайн, на який орієнтувалися під час розробки: https://www.figma.com/design/2vhktUk2ORAJH3tGZ6BamA/Untitled?node-id=0-1&t=Jne9n0zVQArm8Goc-1
 
+
+### Бекенд:
+
+- Документація на бекенд: https://hackawebquiz.ashycoast-bbbe20af.westus2.azurecontainerapps.io/swagger/index.html
+
 ## Інструменти для розгортання:
 
 -   Vercel — для хостингу фронтенду.

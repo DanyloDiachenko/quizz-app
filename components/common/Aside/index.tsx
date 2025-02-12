@@ -101,7 +101,12 @@ export const Aside = ({ profile }: AsideProps) => {
                             </div>
                         </div>
                     ) : (
-                        <div className="flex mt-4 xsm:mt-8 mx-4 gap-4 bg-blackOpacity p-2">
+                        <div className="flex mt-4 xsm:mt-8 mx-4 gap-4 bg-blackOpacity p-2 relative">
+                            {profile.isAdmin && (
+                                <div className="absolute text-yellow -left-2 -top-4 text-sm font-bold">
+                                    * Адміністратор *
+                                </div>
+                            )}
                             <div className="p-2 w-12 h-12 border-purple border-2 rounded-md flex justify-center items-center">
                                 {!profile.avatar ? (
                                     <AiOutlineUser className="text-purple size-6" />

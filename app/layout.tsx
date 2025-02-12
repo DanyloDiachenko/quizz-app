@@ -17,7 +17,7 @@ const inter = Inter({
     variable: "--font-inter",
     weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
     preload: true,
-    subsets: ["latin"],
+    subsets: ["cyrillic-ext", "cyrillic"],
     display: "swap",
 });
 
@@ -31,10 +31,10 @@ export const metadata: Metadata = {
         description:
             "Захопливі квізи та вікторини на будь-яку тему. Змагайся з друзями та стань чемпіоном!",
         type: "website",
-        url: "https://quiz-app.vercel.app/",
+        url: "https://quiz-app-hackaweb.vercel.app/",
         images: [
             {
-                url: "https://quiz-app.vercel.app/logo.png",
+                url: "https://quiz-app-hackaweb.vercel.app/logo.png",
                 width: 1200,
                 height: 630,
                 alt: "QuizApp – Інтерактивні вікторини та квізи",

@@ -45,7 +45,7 @@ export const UserProfilePageComponent = ({
                             isEditSelfProfile={false}
                         />
                     )}
-                    <div>
+                    <div className="overflow-hidden">
                         <OwnQuests
                             profile={profile}
                             ownQuests={ownQuests}

@@ -88,7 +88,7 @@ export const HomePageComponent = ({ serverQuests }: HomePageComponentProps) => {
             </div>
             <div className="flex gap-4 mt-10 flex-col xsm:flex-row">
                 <Input
-                    placeholder="Пошук за назвою..."
+                    placeholder="Пошук (більше 3 символів)..."
                     className="xsm:max-w-[300px] max-w-none"
                     value={searchQuest}
                     onChange={(e) => setSearchQuest(e.target.value)}
